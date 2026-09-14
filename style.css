@@ -309,6 +309,7 @@ header {
   padding: 0;
   overflow: hidden;
   position: relative;
+  margin-top: -80px; /* Pulls hero up under the sticky header */
 }
 
 .hero-photo-wrap {
