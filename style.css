@@ -317,7 +317,7 @@ header {
 .hero-photo-wrap {
   position: relative;
   width: 100%;
-  min-height: 92vh;
+  min-height: 100vh;
   display: flex;
   align-items: flex-end;
   background: #1C1512; /* fallback if image fails to load */
