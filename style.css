@@ -29,6 +29,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -145,7 +146,9 @@ section {
    HEADER & NAV
    ============================================================ */
 header {
-  position: sticky;
+  position: fixed;
+  width: 100%;
+  left: 0;
   top: 0;
   z-index: 50;
   background: rgba(251, 243, 230, 0.95);
@@ -309,7 +312,6 @@ header {
   padding: 0;
   overflow: hidden;
   position: relative;
-  margin-top: -80px; /* Pulls hero up under the sticky header */
 }
 
 .hero-photo-wrap {
